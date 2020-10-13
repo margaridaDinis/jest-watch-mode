@@ -1,0 +1,93 @@
+html {
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #FFF;
+  margin: 0;
+
+}
+
+main {
+  font-size: 1rem;
+  max-width: 75vw;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #F70;
+  margin: 3rem 0 0;
+
+}
+
+h1 span {
+  display: block;
+  color: #FFF;
+}
+
+.respectCase{
+  text-transform: initial;
+}
+
+article {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  line-height: 1;
+}
+
+p {
+  line-height: 1.4;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+p.lead {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+p b {
+  color: #F70;
+}
+
+.presentation {
+  flex: 1;
+}
+
+.snippet {
+  position: relative;
+  background: #000;
+  text-align: left;
+  line-height: 0;
+}
+
+.snippet p {
+  font-size: initial;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+}
+
+code {
+  line-height: 2;
+}

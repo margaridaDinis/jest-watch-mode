@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`navigationItem adds active if it matches the current page 1`] = `
+"
+    <li class=\\"\\">
+      <a href=\\"/?page=1\\">•</a>
+    </li>
+  "
+`;
+
+exports[`navigationItem does not add active nor removes edge for other cases 1`] = `
+"
+    <li class=\\"\\">
+      <a href=\\"/?page=13\\">•</a>
+    </li>
+  "
+`;
+
+exports[`navigationItem removes href if edge page nav item 1`] = `
+"
+    <li class=\\"active\\">
+      <a href=\\"\\">•</a>
+    </li>
+  "
+`;
